@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import InstrumentPlayer from "./InstrumentPlayer";
+import AudioPlayer from "./AudioPlayer";
 
 const InstrumentAudio = ({ instrumentName, notes }) => {
   const [instrumentPlayer, setInstrumentPlayer] = useState(null);
   useEffect(() => {
-    setInstrumentPlayer(InstrumentPlayer());
+    setInstrumentPlayer(AudioPlayer());
   }, []);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ const InstrumentAudio = ({ instrumentName, notes }) => {
   }, [instrumentPlayer]);
 
   useEffect(() => {
-    if (notes.length > 0) {
+    if (notes && notes.length > 0) {
       playNotes();
     }
   }, [notes]);
@@ -25,7 +25,9 @@ const InstrumentAudio = ({ instrumentName, notes }) => {
   };
 
   const playNotes = () => {
-    instrumentPlayer.playNotes(notes[0]);
+    if (instrumentPlayer) {
+      instrumentPlayer.playNote(notes[0]);
+    }
   };
 
   return null;

@@ -2,7 +2,7 @@
   "name": "piano-hooks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ganeshmani.github.io/piano-hooks",
+  "homepage": "https://ganeshmani.github.io/react-piano-hooks/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",

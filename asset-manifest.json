@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-piano-hooks/static/css/main.2ea270a6.chunk.css",
-    "main.js": "/react-piano-hooks/static/js/main.dcfa498d.chunk.js",
-    "main.js.map": "/react-piano-hooks/static/js/main.dcfa498d.chunk.js.map",
+    "main.js": "/react-piano-hooks/static/js/main.856d011a.chunk.js",
+    "main.js.map": "/react-piano-hooks/static/js/main.856d011a.chunk.js.map",
     "runtime-main.js": "/react-piano-hooks/static/js/runtime-main.4b113e15.js",
     "runtime-main.js.map": "/react-piano-hooks/static/js/runtime-main.4b113e15.js.map",
     "static/js/2.716792c0.chunk.js": "/react-piano-hooks/static/js/2.716792c0.chunk.js",
     "static/js/2.716792c0.chunk.js.map": "/react-piano-hooks/static/js/2.716792c0.chunk.js.map",
     "index.html": "/react-piano-hooks/index.html",
-    "precache-manifest.9da20558ecc9c38210e126752a7e6ec4.js": "/react-piano-hooks/precache-manifest.9da20558ecc9c38210e126752a7e6ec4.js",
+    "precache-manifest.b501d5f2e3cb5c17c636723354756599.js": "/react-piano-hooks/precache-manifest.b501d5f2e3cb5c17c636723354756599.js",
     "service-worker.js": "/react-piano-hooks/service-worker.js",
     "static/css/main.2ea270a6.chunk.css.map": "/react-piano-hooks/static/css/main.2ea270a6.chunk.css.map",
     "static/js/2.716792c0.chunk.js.LICENSE": "/react-piano-hooks/static/js/2.716792c0.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4b113e15.js",
     "static/js/2.716792c0.chunk.js",
     "static/css/main.2ea270a6.chunk.css",
-    "static/js/main.dcfa498d.chunk.js"
+    "static/js/main.856d011a.chunk.js"
   ]
 }
